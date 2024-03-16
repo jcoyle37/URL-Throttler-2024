@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica, Sans-Serif;
+    padding: 3px;
+}
+
+div#app {
+    padding: 5px;
+}
+
+table .urlDelayInput {
+    width: 70px;
+}
+table .urlInput {
+    width: 375px;
+}

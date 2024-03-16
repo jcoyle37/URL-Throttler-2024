@@ -1,0 +1,22 @@
+{
+	"name": "url-throttler",
+	"version": "0.0.1",
+	"license": "todo",
+	"description": "Delay network response from user-specified URLs",
+	"scripts": {
+		"build": "webpack"
+	},
+	"dependencies": {
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-scripts": "5.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/preset-env": "latest",
+		"@babel/preset-react": "latest",
+		"babel-loader": "latest",
+		"webpack": "latest",
+		"webpack-cli": "latest"
+	}
+}
