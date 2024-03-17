@@ -25,8 +25,9 @@ If you're interested in reading more about the breaking changes that were introd
 5. Select _Load Temporary Add-on..._
 6. Open the _public/manifest.json_ file
 7. Navigate to the following URL: `about:addons`
-8. Select the ellipse button to the right of _URL Throttler_
-9. Select _Manage_
-10. Choose the _Permissions_ tab
-11. Enable the permission _Access your data for all websites_
-12. _URL Throttler_ should now be accessible in your list of Firefox extensions and functional.
+8. Go to the _Extensions_ section on the left
+9. Select the ellipse button to the right of _URL Throttler_
+19. Select _Manage_
+11. Choose the _Permissions_ tab
+12. Enable the permission _Access your data for all websites_
+13. _URL Throttler_ should now be accessible in your list of Firefox extensions and functional.
