@@ -20,7 +20,7 @@ If you're interested in reading more about the breaking changes that were introd
 ## How to Run as Developer
 1. Clone this repo
 2. Run `npm install` to install all NPM dependencies ([how to install Node.js/NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
-3. (optional) Make your changes, then compile with Webpack by running `npm run build`
+3. (optional) Make your changes in the _/src_ folder, then compile with Webpack by running `npm run build`, which will overwrite the files in the _/public_ folder.
 4. Navigate to the following URL: `about:debugging#/runtime/this-firefox`
 5. Select _Load Temporary Add-on..._
 6. Open the _public/manifest.json_ file
