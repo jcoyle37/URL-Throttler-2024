@@ -7,10 +7,15 @@
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
   },
+  "browser_specific_settings": {
+	"gecko": {
+	  "id": "urlthrottler2024@joecoyle.net"
+	}
+  },
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
-      "js": ["main.js"]
+      "js": ["popup/bundle.js"]
     }
   ],
   "background": {
