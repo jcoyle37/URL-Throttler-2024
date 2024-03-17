@@ -19,13 +19,14 @@ If you're interested in reading more about the breaking changes that were introd
 
 ## How to Run as Developer
 1. Clone this repo
-2. (optional) Make your changes, then compile with Webpack by running `npm run build`
-3. Navigate to the following URL: `about:debugging#/runtime/this-firefox`
-4. Select _Load Temporary Add-on..._
-5. Open the _public/manifest.json_ file
-6. Navigate to the following URL: `about:addons`
-7. Select the ellipse button to the right of _URL Throttler_
-8. Select _Manage_
-9. Choose the _Permissions_ tab
-10. Enable the permission _Access your data for all websites_
-11. _URL Throttler_ should now be accessible in your list of Firefox extensions and functional.
+2. Run `npm install` to install all NPM dependencies ((how to install Node.js/NPM)[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm])
+3. (optional) Make your changes, then compile with Webpack by running `npm run build`
+4. Navigate to the following URL: `about:debugging#/runtime/this-firefox`
+5. Select _Load Temporary Add-on..._
+6. Open the _public/manifest.json_ file
+7. Navigate to the following URL: `about:addons`
+8. Select the ellipse button to the right of _URL Throttler_
+9. Select _Manage_
+10. Choose the _Permissions_ tab
+11. Enable the permission _Access your data for all websites_
+12. _URL Throttler_ should now be accessible in your list of Firefox extensions and functional.
