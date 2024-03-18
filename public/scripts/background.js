@@ -24,9 +24,7 @@ browser.storage.onChanged.addListener(function(changes) {
                     } else {
                         delay = changes.config.newValue.defaultDelay;
                     }
-
-                    console.log("OnBeforeRequest fired");
-        
+                    
                     //delay
                     const startPoint = new Date().getTime()
                     while (new Date().getTime() - startPoint <= delay) {/* wait */}
@@ -41,13 +39,6 @@ browser.storage.onChanged.addListener(function(changes) {
                 ["blocking"]
             );
         }
-    }
-
-    if(changes.config.newValue.urls.length == 0) {
-        console.log("No more URLs; remove req listener");
-    }
-    else if(JSON.stringify(config?.urls) !== JSON.stringify(changes.config.newValue.urls)) {
-        console.log("Changes to URLs; todo: add or alter req listener");
     }
 
     config = changes.newValue;
