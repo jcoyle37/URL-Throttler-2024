@@ -1,7 +1,9 @@
 # URL Throttler 2024
+[Firefox Download Link](https://addons.mozilla.org/addon/url-throttler/)
+
 This Firefox add-on is based on Sean Everest's ([GitHub Profile Link](https://github.com/severest)) _URL Throttler_ extension for Chrome. 
 
-**URL Throttler:** ([Chrome Web Store](https://chromewebstore.google.com/detail/url-throttler/kpkeghonflnkockcnaegmphgdldfnden?pli=1) | [GitHub Repo link](https://github.com/severest/url-throttler))
+**URL Throttler for Chrome:** ([Chrome Web Store](https://chromewebstore.google.com/detail/url-throttler/kpkeghonflnkockcnaegmphgdldfnden?pli=1) | [GitHub Repo link](https://github.com/severest/url-throttler))
 
 Much of the Chrome extension developer community felt somewhat "throttled" when Google decided it was in everyone's best interests to see more ads and disable the underlying technology powering popular ad blockers such as uBlock Origin. Unfortunately, this change will also make Sean's fantastic plugin, one which I use extensively in my work, no longer functional.
 
