@@ -1,4 +1,8 @@
-# [Versions](https://mui.com/versions/)
+# Versions
+
+## v1.2
+_July 24, 2024_
+- Bug fix: Fixed icon to work with light mode
 
 ## v1.1
 _July 23, 2024_
